@@ -1,0 +1,147 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+ /*
+ background-image: linear-gradient(rgba(35, 4, 41, 0.5), rgba(18, 5, 46, 0.5));
+ */
+  background-image: url(file:///Users/srijanpoudel/Downloads/pexels-baskin-creative-studios-1766828.jpg)
+}
+
+.head {
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-position: right;
+   /* background-color: pink; */
+}
+
+.navigation {
+   margin-right: 4.5cm;
+   background-color: darkred;
+  /* border-radius: 12px;*/
+}
+
+.navigation ul {
+   float: right;
+   list-style-type: none;
+   margin: 29px 43px 0px 0px;
+   /* background-color: green; */
+}
+
+.navigation ul li {
+   display: inline-block;
+   font-weight: bold;
+   font-size: 20px;
+   margin: 20px;
+   background-color: black; 
+}
+
+.navigation ul li a {
+   text-decoration: none;
+   color: whitesmoke;
+   border: 1px solid transparent;
+   padding: 7px 27px;
+   transition: 1s ease-out;
+}
+
+.navigation ul li a:hover {
+   /* color: #000; */
+   color: rgba(231, 85, 18, 0.932);
+   background-color: #FFF;
+}
+
+.first-header {
+   position: absolute;
+   top: 43%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   /* background-color: red; */
+}
+
+.first-header h1 {
+   font-size: 67px;
+   color:white;
+   /*background-color: yellow;*/ 
+}
+
+.first-header h2 {
+   text-align: center;
+   margin: 5px 2.0cm 0cm 0cm;
+   background-color: white;
+}
+
+.para {
+   /* background-color: red; */
+   position: absolute;
+   top: 73%;
+   left: 40%;
+   transform: translate(-50%, -50%);
+}
+
+.para h2 {
+   background-color: white;
+   font-size: 35px;
+}
+
+.para p {
+  background-color: white;
+   margin-top: 15px;
+   text-align: justify;
+   font-size: 20px;
+}
+
+.footer {
+   /* background-color: skyblue; */
+   height: 90vh;
+}
+
+.second-header {
+   position: absolute;
+   top: 18cm;
+   left: 40%;
+   transform: translate(-50%, -50%);
+}
+
+.second-header h2 {
+   margin-left: 7cm;
+   font-size: 50px;
+}
+
+.button {
+   position: absolute;
+   background-color: aquamarine;
+   margin: 3cm 0cm 0cm 5cm;
+}
+
+.first-row {
+   margin: 80px 0px 0px 5.7cm;
+   background-color: aqua;
+}
+
+.first-row a {
+   font-size: 20px;
+   /* background-color: red; */
+   text-decoration: none;
+   margin: 50px;
+   color: whitesmoke;
+}
+
+#second-row {
+   margin: 80px 0px 0px 5.7cm;
+   background-color: silver;
+}
+
+#second-row a {
+   font-size: 20px;
+   text-decoration: none;
+   margin: 50px;
+   color: whitesmoke;
+} 
